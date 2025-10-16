@@ -3,70 +3,73 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: white;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
+/* Profile picture styling */
 .pfp {
-  width: 150px;       /* controls size */
-  height: 150px;      /* make sure it's a square */
-  border-radius: 50%; /* makes it a perfect circle */
-  object-fit: cover;  /* ensures the image fills the circle nicely */
-  border: 2px solid #ccc; /* optional border */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
 }
 
-.work-experience {
+/* Flex container for work & projects side-by-side */
+.content-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Each section (work exp or projects) */
+.section {
+  flex: 1;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   text-align: left;
-  margin: 20px auto;
-  max-width: 700px;
-  line-height: 1.5;
 }
 
-.job {
-  margin-bottom: 30px;
+/* Individual items inside */
+.job, .project {
+  margin-bottom: 25px;
 }
 
-.job h3 {
+.job h3, .project h3 {
   margin-bottom: 5px;
-  color: #ffffff;
+  color: #61dafb;
 }
 
 .dates {
   font-style: italic;
   color: #a9a5a5;
   margin-bottom: 10px;
+}
+
+.intro {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #d3d3d3;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive: stack vertically on smaller screens */
+@media (max-width: 900px) {
+  .content-sections {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+  }
 }
