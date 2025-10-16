@@ -54,14 +54,14 @@
 }
 
 .intro {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   color: #d3d3d3;
-  font-size: 1rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 900px;
+  text-align: center;
 }
+
 
 /* Responsive: stack vertically on smaller screens */
 @media (max-width: 900px) {
