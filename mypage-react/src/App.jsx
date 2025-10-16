@@ -4,7 +4,7 @@ import profilePic from './assets/profile_pic.jpg';
 function App() {
   return (
     <div className="App">
-      <h2>Eric Peng - BSc Computer Engineering, QA/Web Developer</h2>
+      <h2>Eric Peng - BSc Computer Engineering, Full Stack + QA Developer</h2>
 
       <img
         className="pfp"
