@@ -1,5 +1,6 @@
 import './App.css'
 import profilePic from './assets/profile_pic.jpg';
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
