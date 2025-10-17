@@ -25,16 +25,16 @@ function App() {
           <div className="work-experience">
 
             <div className="job">
-              <h3>QA Automation Developer – Ciena</h3>
-              <p className="dates">May 2025 – Dec 2025 | Ottawa, ON</p>
+              <h3>QA Automation Developer - Ciena</h3>
+              <p className="dates">May 2025 - Dec 2025 | Ottawa, ON</p>
               <p>Developed web automation scripts and test cases using Playwright with TypeScript and TeamCity, reducing UI and backend error rates by 15%.</p>
               <p>Designed and executed Postman test suites using JSON collections and Makefile structure to validate REST APIs.</p>
-              <p>Analyzed network performance using Playwright and Postman, implementing optimizations that reduced response times by 5–10%.</p>
+              <p>Analyzed network performance using Playwright and Postman, implementing optimizations that reduced response times by 5-10%.</p>
             </div>
 
             <div className="job">
-              <h3>Standards & Industry Automation Developer – Ericsson</h3>
-              <p className="dates">Sep 2024 – Apr 2025 | Ottawa, ON</p>
+              <h3>Standards & Industry Automation Developer - Ericsson</h3>
+              <p className="dates">Sep 2024 - Apr 2025 | Ottawa, ON</p>
               <p>Built automated web scrapers using Python, Django, Selenium, Beautiful Soup, and SQLite to track telecom regulations.</p>
               <p>Implemented secure login systems with JavaScript and the Python Cryptography library.</p>
               <p>Integrated GPT-4o for AI-driven scraper optimization, reducing runtime by 25%.</p>
@@ -42,21 +42,21 @@ function App() {
             </div>
 
             <div className="job">
-              <h3>Web Maintenance Student – University of Ottawa</h3>
-              <p className="dates">May 2024 – Aug 2024 | Ottawa, ON</p>
+              <h3>Web Maintenance Student - University of Ottawa</h3>
+              <p className="dates">May 2024 - Aug 2024 | Ottawa, ON</p>
               <p>Designed and developed a professional website using WordPress and HTML for Professor Elke Winter.</p>
             </div>
 
             <div className="job">
-              <h3>Automation Developer – Global Affairs Canada</h3>
-              <p className="dates">Sep 2023 – Dec 2023 | Gatineau, QC</p>
+              <h3>Automation Developer - Global Affairs Canada</h3>
+              <p className="dates">Sep 2023 - Dec 2023 | Gatineau, QC</p>
               <p>Migrated Java test cases into Nightwatch.js for the NEICS project.</p>
               <p>Verified SQL database integrity during test implementation.</p>
             </div>
 
             <div className="job">
-              <h3>Software Developer – Employment and Social Development Canada (ESDC)</h3>
-              <p className="dates">May 2022 – Aug 2022 | Gatineau, QC</p>
+              <h3>Software Developer - Employment and Social Development Canada (ESDC)</h3>
+              <p className="dates">May 2022 - Aug 2022 | Gatineau, QC</p>
               <p>Created JUnit test cases using Mockito for integration testing.</p>
               <p>Contributed to backend development with Spring Boot.</p>
             </div>
@@ -87,10 +87,31 @@ function App() {
             </div>
 
           </div>
+          {/* Contact Info under Projects (not nested inside .projects div) */}
+          <div className="contact-info">
+            <h2>Contact Info</h2>
+           
+              <div className="contact-item">
+                <h3>Email:</h3>
+                <a href="mailto:ericpeng21@gmail.com">ericpeng21@gmail.com</a>
+              </div>
+
+              <div className="contact-item">
+                <h3>LinkedIn:</h3>
+                <a
+                  href="https://www.linkedin.com/in/eric-peng-/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  linkedin.com/in/eric-peng-/
+                </a>
+              </div>
+      
+          </div>
         </div>
+
+
       </div>
-
-
     </div>
   );
 }

@@ -77,3 +77,37 @@
   }
 }
 
+
+.contact-info {
+  margin-top: 1.5rem;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* spacing between lines */
+  margin-top: 0.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* spacing between label and link */
+}
+
+.contact-item h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-item a {
+  color: #0077b5;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
