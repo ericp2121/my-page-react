@@ -4,7 +4,7 @@ import profilePic from './assets/profile_pic.jpg';
 function App() {
   return (
     <div className="App">
-      <h2>Eric Peng - BSc Computer Engineering, Full Stack + QA Developer</h2>
+      <h2>Eric Peng - BASc Computer Engineering, Full-Stack & QA Developer</h2>
 
       <img
         className="pfp"
@@ -13,7 +13,7 @@ function App() {
       />
 
       <p className="intro">
-        Hey there! I am Eric, a graduating computer engineering student at the University of Ottawa.
+        Hey there! I’m Eric, a graduating Computer Engineering student at the University of Ottawa.
       </p>
 
       {/* Flex container for Work Experience + Projects */}
@@ -27,40 +27,37 @@ function App() {
             <div className="job">
               <h3>QA Automation Developer - Ciena</h3>
               <p className="dates">May 2025 - Dec 2025 | Ottawa, ON</p>
-              <p>Developed web automation scripts and test cases using Playwright with <strong>TypeScript</strong> and <strong>TeamCity</strong>, reducing UI and backend error rates on MCP Servers.</p>
-              <p>Designed and executed <strong>Postman</strong> test suites using JSON collections and <strong>Makefile</strong> structure to validate REST APIs.</p>
-              <p>Analyzed network performance using <strong>Playwright</strong> and <strong>Postman</strong>, implementing optimizations that reduced response times by 5-10%.</p>
+              <p>Developed web automation scripts and test cases using <strong>TypeScript</strong>, <strong>Playwright</strong>, and <strong>TeamCity</strong>.</p>
+              <p>Designed and executed comprehensive <strong>Postman</strong> test suites to validate REST API endpoints, integrated with TeamCity.</p>
+              <p>Executed prompt engineering tests on Ciena’s proprietary AI systems to optimize model behavior and output precision.</p>
             </div>
 
             <div className="job">
-              <h3>Standards & Industry Automation Developer - Ericsson</h3>
+              <h3>Full-Stack Developer (Automation Tools & Standards) - Ericsson</h3>
               <p className="dates">Sep 2024 - Apr 2025 | Ottawa, ON</p>
-              <p>Built automated web scrapers using <strong>Python</strong> (<strong>Django</strong>, <strong>Selenium</strong> and <strong>Beautiful Soup</strong>) and <strong>SQLite</strong> to track telecom regulations.</p>
-              <p>Implemented secure login systems with JavaScript and the <strong>Python Cryptography</strong> library.</p>
-              <p>Integrated <strong>GPT-4o</strong> for AI-driven scraper optimization, reducing runtime by 25%.</p>
-              <p>Maintained and upgraded <strong>Windows Server</strong> 2012 to 2016 and <strong>Linux</strong> servers, reducing server latency and improving infrastructure reliability.</p>
-              <p>Wrote extensive technical documentation on <strong>SharePoint</strong> and <strong>Confluence</strong> pages.</p>
-
+              <p>Developed and maintained web platforms using <strong>Python</strong>, <strong>Django</strong>, <strong>Selenium</strong>, <strong>Beautiful Soup</strong>, and <strong>SQLite</strong> to track telecommunications regulations.</p>
+              <p>Integrated AI-driven optimization strategies into web scrapers using <strong>GPT-4o</strong>.</p>
+              <p>Built secure login systems using JavaScript and the <strong>Python Cryptography</strong> library.</p>
+              <p>Maintained and upgraded <strong>Windows</strong> and <strong>Linux</strong> servers, reducing server latency and improving reliability.</p>
+              <p>Wrote extensive technical documentation in <strong>SharePoint</strong> and <strong>Confluence</strong>.</p>
             </div>
 
             <div className="job">
-              <h3>Web Maintenance Student - University of Ottawa</h3>
+              <h3>Web Development Student - University of Ottawa</h3>
               <p className="dates">May 2024 - Aug 2024 | Ottawa, ON</p>
-              <p>Designed and developed a professional website using <strong>WordPress</strong> and <strong>HTML</strong> for Professor Elke Winter.</p>
+              <p>Designed and developed a professional website using <strong>React</strong>.</p>
             </div>
 
             <div className="job">
               <h3>Automation Developer - Global Affairs Canada</h3>
               <p className="dates">Sep 2023 - Dec 2023 | Gatineau, QC</p>
-              <p>Analyzed then migrated <strong>Java</strong>test cases into <strong>Nightwatch.js</strong> for the NEICS project.</p>
-              <p>Verified <strong>SQL</strong> database integrity during test implementation.</p>
+              <p>Migrated <strong>Java</strong> test cases to <strong>Nightwatch.js</strong> for the NEICS project and verified <strong>SQL</strong> database integrity.</p>
             </div>
 
             <div className="job">
               <h3>Software Developer - Employment and Social Development Canada (ESDC)</h3>
               <p className="dates">May 2022 - Aug 2022 | Gatineau, QC</p>
-              <p>Created <strong>JUnit</strong> test cases using <strong>Mockito</strong> for integration testing.</p>
-              <p>Contributed to backend development with <strong>Spring Boot</strong>.</p>
+              <p>Created <strong>JUnit</strong> test cases using <strong>Mockito</strong> and optimized Spring Boot web integration tests.</p>
             </div>
 
           </div>
@@ -72,25 +69,43 @@ function App() {
           <div className="projects">
 
             <div className="project">
-              <h3>Engineering Capstone - Autonomous Snow Plow</h3>
-              <p>Designed an AI model in <strong>Python OpenCV</strong> to detect snowfall for rover guidance, with 85% accuracy and 500 ms response time.</p>
-              <p>Developed object-avoidance systems in <strong>Python</strong> for autonomous object avoidance during operations.</p>
-              <p>Developed web UI controller for manual operations with <strong>React</strong> and <strong>Python</strong>.</p>
-
+              <h3>Engineering Capstone - Autonomous Snowplow Robot</h3>
+              <p>Designed an AI model using <strong>Python</strong> and <strong>OpenCV</strong> to detect snowfall for rover guidance.</p>
+              <p>Developed autonomous object-avoidance systems using <strong>Python</strong>.</p>
+              <p>Built a UI-controlled platform using <strong>React</strong> and <strong>Python</strong>, integrating real-time weather APIs.</p>
             </div>
 
             <div className="project">
-              <h3>Rate my Co-op Website</h3>
-              <p>Developed a platform to review internships; with <strong>React</strong> and <strong>Material-UI</strong> front-end, and Java, Spring Boot back-end with <strong>SQL</strong>, hosted on <strong>MS Azure</strong>.</p>
+              <h3>Rate My Co-op Website</h3>
+              <p>Developed an internship review platform with a <strong>React</strong> & <strong>Material-UI</strong> frontend and a <strong>Java Spring Boot</strong> backend hosted on <strong>Microsoft Azure</strong>.</p>
             </div>
 
             <div className="project">
               <h3>Android Car Rental App</h3>
-              <p>Developed a <strong>Java-based</strong> Android car rental app, with <strong>Firebase</strong> backend.</p>
+              <p>Developed a <strong>Java-based</strong> Android app with a <strong>Firebase</strong> backend.</p>
             </div>
 
           </div>
-          {/* Contact Info under Projects (not nested inside .projects div) */}
+
+          <div className="contact-info">
+            <h2>Academic Involvement</h2>
+
+            <div className="project">
+              <h3>English Debate Society</h3>
+              <p>Organized and ran high school debate tournaments for 100+ participants.</p>
+              <p>Utilized open-source debate tabbing software, TabbyCat, for university-level tournaments.</p>
+              <p>Selected to represent the University of Ottawa at the World University Debating Championships in Bulgaria, 2026.</p>
+            </div>
+
+            <div className="project">
+              <h3>Engineering Student Society</h3>
+              <p>Organized and ran multiple educational and recreational events for newly enrolled students.</p>
+              <p>Provided academic and lifestyle guidance to new students.</p>
+            </div>
+
+          </div>
+
+
           <div className="contact-info">
             <h2>Contact Info</h2>
 
